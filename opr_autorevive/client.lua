@@ -10,6 +10,7 @@ AddEventHandler('esx:onPlayerDeath', function()
     isDead = true
     reviveTimer()
 end)
+
 function reviveTimer()
     Citizen.SetTimeout(240000, function()
         if isDead then
