@@ -6,5 +6,5 @@ author 'Optaxer'
 description 'Auto revive script for esx legacy'
 
 client_scripts {
-	'client/main.lua',
+	'client.lua',
 }
